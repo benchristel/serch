@@ -1,0 +1,19 @@
+{
+  "name": "@benchristel/serch",
+  "version": "0.0.0",
+  "description": "Crawls the Web for non-corporate pages",
+  "main": "main.js",
+  "scripts": {
+    "test": "./build.sh"
+  },
+  "keywords": [
+    "search",
+    "crawler"
+  ],
+  "author": "Ben Christel",
+  "license": "MIT",
+  "dependencies": {
+    "@benchristel/supercrawler": "file:../supercrawler",
+    "mysql": "^2.13.0"
+  }
+}
